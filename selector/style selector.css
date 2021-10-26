@@ -1,0 +1,14 @@
+p {
+    color: black;
+}
+
+#lorem {
+    background: rgb(105, 186, 189);
+    color: rgb(0, 0, 0);
+}
+
+.class-name {
+    margin-top: 50px;
+    color: green;
+    background: rgb(224, 153, 189);
+}
