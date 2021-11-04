@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             .grow{
+                 display: flex;
+                 font-size: 2rem;
+             }
+             .BLUE{
+                background-color: blue;
+             }
+             .vers{
+                background-color:rgb(121, 163, 79);
+             }
+             .jaune{
+                 background-color: rgb(255, 231, 12);
+             }
+             .basis{
+                display: flex;
+                 font-size: 2rem;
+                 background-color: darkslateblue;
+             }
+             .A{
+                background-color: darkgray;
+             }
+             .B{
+               background-color: darkgreen;
+             }
+             .C{
+               background-color: darkseagreen;
+             }
+        </style>
+    </head>
+    <body>
+        <h1>flex-grow</h1>
+        <div class=" grow">
+            <div class="BLUE" style="flex-grow: 1;">Lorem.</div>
+            <div class="vers" style="flex-grow: 2;">Lorem, ipsum.</div>
+            <div class="jaune" style="flex-grow: 2;">Lorem, ipsum dolor.</div>
+        </div>
+        <h1>flex-basis</h1>
+        <div class=" basis">
+            <div class="A" style="flex-basis: 50px;">Lorem.</div>
+            <div class="B" style="flex-basis: 50px;">Lorem, ipsum.</div>
+            <div class="C" style="flex-basis: 100px;">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+        </div>
+    </body>
+</html>
